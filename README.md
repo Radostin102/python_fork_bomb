@@ -1,9 +1,9 @@
-# python_forkbomb
+# python_fork_bomb
 
-A 78-character Python forkbomb.
+A 78-character Python fork bomb.
 
 > [!WARNING]
-> A forkbomb is a program that recursively forks itself, consuming all available system resources and eventually leading to a system crash. By running this script, you take full responsibility for any damage it may cause. If you want to test it safely, you can use a virtual environment/machine. **Use at your own risk.**
+> A fork bomb is a program that recursively forks itself, consuming all available system resources and eventually leading to a system crash. By running this script, you take full responsibility for any damage it may cause. If you want to test it safely, you can use a virtual environment/machine. **Use at your own risk.**
 
 ## The code & explanation
 
@@ -14,7 +14,7 @@ while 1:
  except:pass
 ```
 
-While smaller forkbombs exist, mine creates more processes, leading to a faster crash. The following script:
+While smaller fork bombs exist, mine creates more processes, leading to a faster crash. The following script:
 
 ```python
 import os
