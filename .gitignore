@@ -6,3 +6,8 @@ build/
 dist/
 **/__pycache__/
 *.pyc
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini
